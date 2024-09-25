@@ -1,11 +1,39 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" class="h-screen">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Карточка</title>
     <link rel="stylesheet" href="./output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
   </head>
-  <body>
+  <body class="h-screen font-inter font-normal text-sm">
+    <div class="container flex justify-center items-center h-screen">
+      <article class="card flex flex-col justify-between w-[315px] md:w-[440px] h-[360px] md:h-[503px] bg-slate-200 shadow">
+        <button class="self-end bg-white">button</button>
+        <div class="bg-white">
+          <div>
+            <header>
+              <h2>Subheader</h2>
+              <h1>Header</h1>
+            </header>
+            <div>
+              <p>Text</p>
+            </div>
+          </div>
+          <section>
+            <hr />
+            <div>
+              <span>Text</span>
+              <a>Link</a>
+            </div>
+          </section>
+          <button>Button</button>
+          <p>Sub text</p>
+        </div>
+      </article>
+    </div>
   </body>
 </html>
