@@ -9,29 +9,40 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
   </head>
-  <body class="h-screen font-inter font-normal text-sm">
+  <body class="font-inter font-normal text-sm h-screen">
     <div class="container flex justify-center items-center h-screen">
-      <article class="card flex flex-col justify-between w-[315px] md:w-[440px] h-[360px] md:h-[503px] bg-slate-200 shadow">
-        <button class="self-end bg-white">button</button>
-        <div class="bg-white">
-          <div>
-            <header>
-              <h2>Subheader</h2>
-              <h1>Header</h1>
+      <article class="card flex flex-col justify-between w-[315px] lg:w-[440px] h-[380px] lg:h-[528px] bg-slate-200 shadow">
+        <button class="self-end bg-white text-xs font-medium w-[59px] px-1.5 py-1.5 mt-3 mr-3 rounded-lg">button</button>
+        <div class="bg-white px-3 py-4 group">
+          <div class="flex justify-between">
+            <header class="pb-3">
+              <h2 class="text-gray-500">Subheader</h2>
+              <h1 class="font-medium text-xl">Header</h1>
             </header>
-            <div>
-              <p>Text</p>
+            <div class="pt-2">
+              <p class="font-medium text-lg ">Text</p>
             </div>
           </div>
-          <section>
-            <hr />
-            <div>
-              <span>Text</span>
+          <section class="hidden group-hover:duration-150 group-hover:block  py-3 border-t ">
+            <div class="flex justify-between mb-2">
+              <span class="text-gray-500">Text</span>
+              <a>Link</a>
+            </div>
+            <div class="flex justify-between my-2">
+              <span class="text-gray-500">Text</span>
+              <a>Link</a>
+            </div>
+            <div class="flex justify-between my-2">
+              <span class="text-gray-500">Text</span>
+              <a>Link</a>
+            </div>
+            <div class="flex justify-between mt-2">
+              <span class="text-gray-500">Text</span>
               <a>Link</a>
             </div>
           </section>
-          <button>Button</button>
-          <p>Sub text</p>
+          <button class="w-full text-base font-semibold text-white bg-gray-500 h-[46px] rounded-lg">Button</button>
+          <p class="text-center text-xs text-gray-500 pt-1">Sub text</p>
         </div>
       </article>
     </div>
