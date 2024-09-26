@@ -1,2 +1,9 @@
-# Tailwind_card
-Take a look - https://kinddoctor.github.io/Tailwind_card/
+Адаптивная верстка макета карточки, выполненная на Tailwindcss.
+
+Минимальная ширина карточки - 315px, максимальная ширина - 440px.
+
+Развертка дополнительной информационной области при наведении на текстовую область.
+
+----
+
+Посмотреть в действии - https://kinddoctor.github.io/Tailwind_card/
